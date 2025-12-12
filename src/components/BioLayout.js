@@ -115,7 +115,7 @@ export default function BioLayout({ appData, adScripts }) {
               style={{
                 width: "100%",
                 maxWidth: "728px",
-                height: "90px",
+                height: "80px",
                 border: "none",
                 borderRadius: "10px",
                 backgroundColor: "#201f31",
@@ -131,7 +131,7 @@ export default function BioLayout({ appData, adScripts }) {
 
           <div className="bio-description">
             {user.bio}
-            <br />({visibleCount} of {totalPosts} Posts Visible)
+            {/* <br />({visibleCount} of {totalPosts} Posts Visible) */}
           </div>
 
           <div className="bio-search-container">
@@ -176,7 +176,7 @@ export default function BioLayout({ appData, adScripts }) {
               style={{
                 width: "100%",
                 maxWidth: "728px",
-                height: "90px",
+                height: "80px",
                 border: "none",
                 borderRadius: "10px",
                 backgroundColor: "#201f31",

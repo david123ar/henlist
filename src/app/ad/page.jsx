@@ -39,7 +39,7 @@ const Page = () => {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        height: "90px",
+        height: "80px",
         width: "100%",
         overflow: "hidden", // Crucial for hiding sliding content
         color: "#fff",

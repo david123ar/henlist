@@ -474,7 +474,7 @@ export const originalData = [
 
 export const mockUser = {
   username: "Henpro",
-  bio: "The best source for all things spicy! Search by Post # (e.g., 10) or by Title.",
+  bio: "Follow us for Daily Sauce!!",
   avatar: "/johi.png",
   design: "design8.jpeg",
 };
