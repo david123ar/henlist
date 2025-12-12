@@ -1,6 +1,31 @@
 /* src/app/global.css */
 
 /* --- RESET & BASE --- */
+
+:root {
+  --theme-avatarBorder: #00cc66;
+  --theme-avatarShadow: 0 0 12px #00cc66;
+
+  --theme-usernameBg: rgba(0, 204, 102, 0.2);
+  --theme-usernameColor: #ffffff;
+  --theme-usernameShadow: 0 1px 4px rgba(0, 204, 102, 0.3);
+
+  --theme-descriptionBg: rgba(0, 204, 102, 0.15);
+  --theme-descriptionColor: #ccffdd;
+  --theme-descriptionShadow: 0 1px 3px rgba(0, 204, 102, 0.2);
+
+  --theme-linkBg: linear-gradient(to right, #00cc66, #003300);
+  --theme-linkColor: #fff;
+  --theme-linkShadow: 0 2px 10px rgba(0, 204, 102, 0.4);
+
+  --theme-titleShadow: 0 0 3px #000, 0 0 5px #000;
+
+  --theme-scrollbarThumb: rgba(0, 204, 102, 0.3);
+
+  --theme-adBg: #001a0d;
+  --theme-adShadow: 0 4px 10px rgba(0, 204, 102, 0.3);
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -41,7 +66,7 @@ body {
 .bio-content {
   position: relative;
   z-index: 1;
-  padding: 20px;
+  padding: 10px;
   width: 100%;
   min-height: 100vh;
   display: flex;
@@ -53,8 +78,8 @@ body {
 
 /* --- AVATAR & INFO --- */
 .bio-avatar {
-  width: 100px;
-  height: 100px;
+  width: 90px;
+  height: 90px;
   border-radius: 50%;
   overflow: hidden;
   box-sizing: content-box;
@@ -94,7 +119,7 @@ body {
 .bio-search-container {
   width: 90%;
   max-width: 450px;
-  margin: 5px auto 15px auto;
+  margin: 5px auto 0 auto;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
   border-radius: 20px;
   overflow: hidden;
@@ -115,13 +140,13 @@ body {
 .bio-links {
   width: 90%;
   max-width: 450px;
-  margin: 10px auto;
+  margin: 10px 0;
   display: flex;
   flex-direction: column;
   gap: 12px;
-  height: 350px;
+  height: 300px;
   overflow-y: scroll;
-  padding: 0 15px;
+  padding: 0 10px;
   overflow-x: hidden;
   box-sizing: border-box;
 }
@@ -146,7 +171,7 @@ body {
   min-height: 55px;
   height: auto;
   width: 100%;
-  padding: 8px 14px;
+  padding: 5px 14px;
   text-decoration: none;
   flex-shrink: 0;
   font-size: 15px;
@@ -186,10 +211,10 @@ body {
   box-shadow: var(--theme-adShadow);
 }
 .bio-ad.ad-top {
-  margin-bottom: 12px;
+  margin-bottom: 5px;
 }
 .bio-ad.ad-bottom {
-  margin-top: 20px;
+  margin-top: 5px;
 }
 .bio-ad div[id^="container-"] {
   width: 100%;
